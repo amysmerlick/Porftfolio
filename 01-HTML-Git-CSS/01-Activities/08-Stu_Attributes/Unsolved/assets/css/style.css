@@ -1,19 +1,26 @@
-.section {
-  background-color: lemonchiffon;
+h1 {
+  background-color: rgb(39, 3, 75);
+  color: white;
 }
 
-.headers {
-  color: darkblue;
+h2 {
+  background-color: darkblue;
+  color: white;
 }
 
-#email {
-  background-color: goldenrod;
+h3 {
+  background-color: rgb(218, 32, 187);
+  color: white;
 }
 
-#github {
-  background-color: lightsteelblue
+ul {
+  background-color: violet;
+  color:white
+  font-size: xx-large;
+  font-stretch: extra-expanded;
 }
 
-#portfolio {
-  background-color: darkorange;
+body {
+  background-color: black;
 }
+
