@@ -54,9 +54,9 @@ h3 p {
 }
 
 nav ul li {
-  list-style-type: none;
   margin-left: 25px;
   display: inline-block;
+  color: white;
 }
 
 a:visited {
