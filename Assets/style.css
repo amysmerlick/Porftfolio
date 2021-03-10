@@ -72,11 +72,7 @@ a:active {
     color: purple;
 }
 
-
-/* Sets each header to the same size, color, alignment, and margin space */
-
 img {
-  float: left;
   width: 25%;
 }
 
