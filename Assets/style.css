@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*reset margin and padding*/
+
+body {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 2%;
+  background-image: url(../Images/Sleek2.jpg);
+  background-repeat: no-repeat;
+}
+/*sets the body style*/
+header, footer, nav, {
+  padding: 1 0 1;
+  position: fixed;
+}
+
+p {
+  font-size: 25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+/* sets all font size and style */ 
+
+h1, h2, h3, h4 {
+  font-size: 50px;
+  margin: 2% 0;
+  color: lightblue;
+  text-align: center;
+}
+/* Sets each header to the same size, color, alignment, and margin space */
+
+.main-header, footer {
+  border: 5px solid white;
+  border-width: 5px;
+  padding-top: 20px;   
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header h1 {
+  display: inline-block;
+  font-size: 60px;
+}
+
+.main-header nav ul li {
+  padding-top: 15px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+  color: white;
+  zoom: 150%;
+  display: block;
+}
+  
+a:active {
+    color: rgb(232, 247, 27);
+}
+
+img {
+  float: left;
+  width: 25%;
+}
+
+#Content {
+  text-align: center;
+}
+
+.Biography, .Portfolio {
+  border: 5px solid white;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  display: flex;
+}
+
+.img {
+  display: inline-flex;
+  flex: 0 1 auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column; 
+  padding-top: 15px 0;
+  border: white;
+  display: inline-block;
+  border: solid
+}
+
+#ContactMe {
+  text-align: center;
+  display: flex;
+  flex-direction: inline;
+  border: 5px solid white;
+  background-color: darkgrey;
+}
+
+.a {
+  text-align: center;
+  display: inline;
+}
+
+footer {
+  text-align: center;
+  flex-wrap: initial;
+  background-color: darkgrey;
+}
+ @media screen and (max-width: 768px) {
+  footer, header {
+    background-color: purple;
+  }
+ }
+
+ @media screen and (max-width: 768px) {
+   #ContactMe {
+     background-color: purple;
+   }
+ }
