@@ -59,6 +59,10 @@ nav ul li {
   color: white;
 }
 
+nav ul li a {
+  color: white;
+}
+
 a:visited {
     color: white;
 }
