@@ -9,7 +9,7 @@ body {
   color: white;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 2%;
@@ -17,26 +17,26 @@ body {
   background-repeat: no-repeat;
 }
 /*sets the body style*/
-header, footer, nav, {
-  padding: 1 0 1;
-  position: fixed;
+nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
 }
 
-p {
-  font-size: 25px;
+h1 {
+  color:lightblue;
+  display: flex;
+  justify-content: flex-start;
+} 
+
+h3 p {
+  font-size: 40px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
-/* sets all font size and style */ 
 
-h1, h2, h3, h4 {
-  font-size: 50px;
-  margin: 2% 0;
-  color: lightblue;
-  text-align: center;
-}
-/* Sets each header to the same size, color, alignment, and margin space */
-
-.main-header, footer {
+.main-header {
   border: 5px solid white;
   border-width: 5px;
   padding-top: 20px;   
@@ -52,9 +52,9 @@ h1, h2, h3, h4 {
   font-size: 60px;
 }
 
-.main-header nav ul li {
-  padding-top: 15px;
-  margin-right: 20px;
+nav ul li {
+  list-style-type: none;
+  margin-left: 25px;
   display: inline-block;
 }
 
@@ -63,14 +63,17 @@ a:visited {
 }
 
 a:hover {
-  color: white;
+  color: lightblue;
   zoom: 150%;
   display: block;
 }
   
 a:active {
-    color: rgb(232, 247, 27);
+    color: purple;
 }
+
+
+/* Sets each header to the same size, color, alignment, and margin space */
 
 img {
   float: left;
@@ -79,6 +82,11 @@ img {
 
 #Content {
   text-align: center;
+  border: 5px solid white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 30px;
+  padding-left: 50px;
 }
 
 .Biography, .Portfolio {
@@ -88,11 +96,7 @@ img {
   padding-bottom: 50px;
   padding-left: 80px;
   display: flex;
-}
-
-.img {
-  display: inline-flex;
-  flex: 0 1 auto;
+  font-size: 60px,
 }
 
 section {
@@ -104,23 +108,44 @@ section {
   border: solid
 }
 
-#ContactMe {
+.ContactMe {
   text-align: center;
+  padding: 30px;
   display: flex;
   flex-direction: inline;
   border: 5px solid white;
   background-color: darkgrey;
+  font-size: 35px;
+  color: black;
 }
 
-.a {
-  text-align: center;
-  display: inline;
+
+.ContactMe a {
+  font-size: 20px;
 }
 
-footer {
+.ContactMe a:visited {
+    color: white;
+}
+
+.ContactMe a:hover {
+    color: rgb(230, 20, 20);
+    zoom: 150%;
+    display: block;
+}
+.ContactMe a:active {
+  color: rgb(232, 247, 27);
+}
+  
+h4 {
+  font-size: 50px;
+}
+
+footer p {
   text-align: center;
-  flex-wrap: initial;
   background-color: darkgrey;
+  font-size: 30px;
+  color: black;
 }
  @media screen and (max-width: 768px) {
   footer, header {
