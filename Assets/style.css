@@ -7,34 +7,17 @@
 
 body {
   color: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  margin: 0;
+  padding: 20px;
+  margin: 20px;
   font-family: 'Times New Roman', Times, serif;
-  margin-bottom: 2%;
   background-image: url(../Images/Sleek2.jpg);
-  background-repeat: no-repeat;
 }
 /*sets the body style*/
 nav {
-  padding-top: 15px;
+  padding-top: 20px;
   margin-right: 20px;
   font-size: 20px;
-  display: flex;
-  justify-content: flex-end;
   color: white;
-}
-
-h1 {
-  color:lightblue;
-  display: flex;
-  justify-content: flex-start;
-} 
-
-h3 p {
-  font-size: 40px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 .main-header {
@@ -42,26 +25,29 @@ h3 p {
   border-width: 5px;
   padding-top: 20px;   
   padding-right: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 300px;
   padding-left: 80px;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .main-header h1 {
   display: inline-block;
-  font-size: 60px;
+  font-size: 80px;
+  color: lightblue;
 }
 
 nav ul li {
-  margin-left: 25px;
-  display: inline-block;
+  margin-left: 5px;
   color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: flex-start;
 }
 
-nav ul li a {
+li a {
   color: white;
 }
+/* makes navigation links white*/
 
 a:visited {
     color: white;
@@ -77,52 +63,70 @@ a:active {
     color: purple;
 }
 
-img {
-  width: 25%;
+img  {
+  width: 15%;
 }
 
 #Content {
-  text-align: center;
-  border: 5px solid white;
-  padding-top: 1px;
-  padding-bottom: 1px;
+  display: flex;
+  justify-content: right;
+  padding-bottom: 5px;
   padding-right: 30px;
   padding-left: 50px;
+  padding-top: 0px;
+}
+
+.Biography h2 {
+  font-size: 50px;
+  color: lightblue;
+  text-align: left;
+}
+
+.Biography p {
+  font-size: 25px;
+  text-align: center;
+}
+
+.Portfolio h3 {
+  font-size: 50px;
+  text-align: center;
+  color: lightblue;
+}
+.Portfolio p {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 .Biography, .Portfolio {
   border: 5px solid white;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 80px;
   display: flex;
-  font-size: 60px,
+  justify-content: space-around;
 }
 
-section {
-  display: flex;
-  flex-direction: column; 
-  padding-top: 15px 0;
-  border: white;
-  display: inline-block;
-  border: solid
+/* Resized portfolio photos to fit on the page*/
+.Portfolio img {
+  width: 75%;
 }
 
+/*EVERTHING BELOW HERE I AM CONTENT WITH*/
 .ContactMe {
   text-align: center;
   padding: 30px;
-  display: flex;
-  flex-direction: inline;
   border: 5px solid white;
   background-color: darkgrey;
   font-size: 35px;
   color: black;
 }
 
-
 .ContactMe a {
-  font-size: 20px;
+  font-size: 18px;
+  color: white;
+  display: inline-block;
 }
 
 .ContactMe a:visited {
@@ -130,18 +134,13 @@ section {
 }
 
 .ContactMe a:hover {
-    color: rgb(230, 20, 20);
-    zoom: 150%;
-    display: block;
-}
-.ContactMe a:active {
-  color: rgb(232, 247, 27);
-}
-  
-h4 {
-  font-size: 50px;
+    color: lightblue;
 }
 
+.ContactMe a:active {
+  color: purple;
+}
+  
 footer p {
   text-align: center;
   background-color: darkgrey;
