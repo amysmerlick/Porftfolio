@@ -31,7 +31,7 @@ nav {
 
 .main-header h1 {
   display: inline-block;
-  font-size: 80px;
+  font-size: 75px;
   color: lightblue;
 }
 
@@ -94,8 +94,6 @@ img  {
 }
 .Portfolio p {
   font-size: 25px;
-  display: flex;
-  flex-direction: column;
 }
 
 .Biography, .Portfolio {
@@ -110,7 +108,8 @@ img  {
 
 /* Resized portfolio photos to fit on the page*/
 .Portfolio img {
-  width: 75%;
+  display: inline-flex;
+  width: 100%;
 }
 
 /*EVERTHING BELOW HERE I AM CONTENT WITH*/
