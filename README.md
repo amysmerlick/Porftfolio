@@ -14,7 +14,7 @@ Open index.html in Chrome
 ### __Screenshot__
 
 
-![Portfolio](https:// screenshot of webpage)
+
 ***
 
 ### __Completed__
