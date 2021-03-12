@@ -12,9 +12,7 @@ Open index.html in Chrome
 
 ***
 ### __Screenshot__
-
-
-![Portfolio](https:// screenshot of webpage)
+[Amy Smerlick Student Porfolio](https://amysmerlick.github.io/Porftfolio/)
 ***
 
 ### __Completed__
