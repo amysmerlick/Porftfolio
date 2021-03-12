@@ -111,11 +111,17 @@ body {
 .Portfolio img {
  width: 65%;
  border: 5px solid grey;
+ padding: 5px;
 }
 
 .overlay {
   font-size: 30px;
   color: lightblue;
+  margin: 6px;
+}
+
+.projectimage:hover {
+  zoom: 5;
 }
 
 /*EVERTHING BELOW HERE I AM CONTENT WITH*/
