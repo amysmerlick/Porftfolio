@@ -13,17 +13,17 @@
 <body>
     <main>
         <header class="main-header">
-            <h1 id="Amy"> Amy Smerlick Student Portfolio</h1>
+            <h1 class="amy"> Amy Smerlick Student Portfolio</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#Biography">All About Me</a>
+                        <a class="nav-link" href="#Biography">All About Me</a>
                     </li>
                     <li>
-                        <a href="#Portfolio">Portfolio</a>
+                        <a class="nav-link" href="#Portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#ContactMe">Contact Me</a>
+                        <a class="nav-link" href="#ContactMe">Contact Me</a>
                     </li>
                 </ul>
             </nav>
@@ -42,31 +42,37 @@
                 numerous avenues to explore , within the coding world, and let my creativity soar. Ultimately, I hope to
                 possess the skills to work remotely when my husband retires. His dream is to travel the world by sea.
             </p>
-            <img src="./Images/Headshot.jpg" alt="headshot">
+            <div class="amyshead">
+                <img src="./Images/Headshot.jpg" height="200" alt="headshot">
+            </div>
         </section>
 
         <section id="Portfolio" class="Portfolio">
             <h3><u>Portfolio</u></h3>
             <p>We have currently only completed the week one homework assignment. Click the images below to review my
                 work. Keep coming
-                back for more!!</p>
-            <a href="https://github.com/amysmerlick/Horiseon"><img src=".//Images/Horiseon Social Solution Services.png"
-                    alt="Horiseon"></a>
-            <a href="https://amysmerlick.github.io/prework-about-me"><img src=".//Images/About Me.png"
-                    alt="AboutMe"></a>
+                back for more, as I plan to update frequently!!</p>
+            <div class="projectcontainer">
+                <a class="projectimage" href="https://github.com/amysmerlick/Horiseon"><img
+                        src=".//Images/Horiseon Social Solution Services.png" alt="Horiseon"></a>
+                <a class="projectimage" href="https://amysmerlick.github.io/prework-about-me"><img
+                        src=".//Images/About Me.png" alt="AboutMe"></a>
+            </div>
         </section>
 
 
 
         <section id="ContactMe" class="ContactMe">
             <h4><u>Contact Me</u></h4>
-            <a href="https://www.linkedin.com/in/amysmerlick/">LinkedIn</a>
+            <a class="contactinfo" href="https://www.linkedin.com/in/amysmerlick/">LinkedIn</a>
 
-            <a href="https://github.com/amysmerlick">GitHub</a>
+            <a class="contactinfo" href="https://github.com/amysmerlick">GitHub</a>
         </section>
-        <footer>
-            <p> @ Amy Smerlick 2021</p>
-        </footer>
 
+        <footer>
+            <h5> @ Amy Smerlick 2021</h5>
+        </footer>
     </main>
-    </ </html>
+</body>
+
+</html>

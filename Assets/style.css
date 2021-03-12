@@ -1,128 +1,123 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-/*reset margin and padding*/
-
 body {
   color: white;
   padding: 20px;
   margin: 20px;
   font-family: 'Times New Roman', Times, serif;
   background-image: url(../Images/Sleek2.jpg);
+  background-size: cover;
+  background-position: center;
 }
-/*sets the body style*/
-nav {
-  padding-top: 20px;
-  margin-right: 20px;
-  font-size: 20px;
-  color: white;
-}
+/*sets the body style and adds an image to the background*/
 
 .main-header {
-  border: 5px solid white;
+  border: 10px solid white;
   border-width: 5px;
-  padding-top: 20px;   
+  padding-top: 40px;   
   padding-right: 30px;
-  padding-bottom: 300px;
+  padding-bottom: 150px;
   padding-left: 80px;
 }
 
-.main-header h1 {
-  display: inline-block;
-  font-size: 75px;
+.amy {
   color: lightblue;
+  font-size: 60px;
+  display: flex;
+  justify-content: left;
+  margin: 25px;
 }
+/* this set the size and color of my header */
 
-nav ul li {
-  margin-left: 5px;
+.nav-link {
+  margin-top: 30px;
+  margin-left: 10px;
   color: white;
   font-size: 25px;
   display: flex;
   flex-direction: row-reverse; 
   justify-content: flex-start;
 }
+/* styles and positions my navigation*/
 
-li a {
-  color: white;
+.nav-link:hover {
+  color: purple;
 }
-/* makes navigation links white*/
-
-a:visited {
-    color: white;
-}
-
-a:hover {
-  color: lightblue;
-  zoom: 150%;
-  display: block;
-}
+/*changes navigation color when hover over */
   
-a:active {
-    color: purple;
+.nav-link:active {
+    color: lightblue;
 }
+/*changes the navigation link when it is clicked */
 
-img  {
-  width: 15%;
-}
-
-#Content {
+.Content {
   display: flex;
   padding-bottom: 5px;
   padding-right: 30px;
   padding-left: 50px;
   padding-top: 0px;
 }
-
-#Biography {
-  border: 5px solid white;
-  border-width: 5px;
-  padding-top: 20px;   
-  padding-right: 30px;
-  padding-bottom: 300px;
-  padding-left: 80px;
+/* sets up my flexbox for my biography */
+.Biography {
+  display: flex;
+  padding: 2rem;
+  border: 10px solid white;
 }
 
+
 .Biography h2 {
-    font-size: 50px;
+  font-size: 50px;
   color: lightblue;
   text-align: left;
 }
 
 .Biography p {
   font-size: 25px;
+  padding: 1rem;
+}
+
+.amyshead img {
+  object-fit: contain;
+}
+
+.Portfolio {
+  border: 5px solid white;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 200px;
+  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .Portfolio h3 {
   font-size: 50px;
+  padding-bottom: 20px;
   text-align: center;
   color: lightblue;
 }
+
 .Portfolio p {
   font-size: 25px;
 }
 
-.Biography, .Portfolio {
-  border: 5px solid white;
-  padding-top: 20px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+.projectcontainer {
   display: flex;
-  justify-content: space-around;
+  margin-top: 80px;
 }
 
 /* Resized portfolio photos to fit on the page*/
 .Portfolio img {
-  display: inline-flex;
-  width: 100%;
+ width: 40%;
 }
+.projectimage:hover {
+  width: 75%;
+}
+
 
 /*EVERTHING BELOW HERE I AM CONTENT WITH*/
 .ContactMe {
   text-align: center;
-  padding: 30px;
+  padding: 60px;
   border: 5px solid white;
   background-color: darkgrey;
   font-size: 35px;
@@ -135,32 +130,40 @@ img  {
   display: inline-block;
 }
 
-.ContactMe a:visited {
+.contactinfo:visited {
     color: white;
 }
 
-.ContactMe a:hover {
+.contactinfo:hover {
     color: lightblue;
 }
 
-.ContactMe a:active {
+.contactinfo:active {
   color: purple;
 }
-  
-footer p {
+
+footer h5 {
   text-align: center;
   background-color: darkgrey;
   font-size: 30px;
   color: black;
 }
+
+@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  main,
+  nav {
+    flex-direction: column;
+  }
  @media screen and (max-width: 768px) {
   footer, header {
     background-color: purple;
+    text-align: center;
   }
  }
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
    #ContactMe {
-     background-color: purple;
-   }
+    background-color: purple;
+  }
  }
