@@ -22,7 +22,6 @@ body {
   color: lightblue;
   font-size: 60px;
   display: flex;
-  justify-content: left;
   margin: 25px;
 }
 /* this set the size and color of my header */
@@ -102,17 +101,22 @@ body {
 
 .projectcontainer {
   display: flex;
+  flex: 50%;
+  max-width: 90%;
   margin-top: 80px;
+  position: relative;
 }
 
 /* Resized portfolio photos to fit on the page*/
 .Portfolio img {
- width: 40%;
-}
-.projectimage:hover {
-  width: 75%;
+ width: 65%;
+ border: 5px solid grey;
 }
 
+.overlay {
+  font-size: 30px;
+  color: lightblue;
+}
 
 /*EVERTHING BELOW HERE I AM CONTENT WITH*/
 .ContactMe {

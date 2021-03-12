@@ -12,9 +12,7 @@ Open index.html in Chrome
 
 ***
 ### __Screenshot__
-
-
-
+![Amy Smerlick Student Porfolio](https://user-images.githubusercontent.com/77814900/110884280-e0aa9f80-82b2-11eb-990e-52f147299eed.png)
 ***
 
 ### __Completed__
