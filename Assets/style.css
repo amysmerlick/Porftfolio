@@ -171,6 +171,7 @@ footer h5 {
   /* Use flex-direction to stack the navbar, sidebar, and body */
   main,
   nav {
+    display: flex;
     flex-direction: center;
   }
   #ContactMe, header {
