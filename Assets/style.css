@@ -17,6 +17,7 @@ body {
   padding-left: 80px;
 }
 
+
 .amy {
   color: lightblue;
   font-size: 60px;
@@ -160,15 +161,20 @@ footer h5 {
   nav {
     flex-direction: column;
   }
- @media screen and (max-width: 768px) {
-  footer, header {
+  #ContactMe, header {
     background-color: purple;
     text-align: center;
   }
  }
 
-@media screen and (max-width: 768px) {
-   #ContactMe {
+ @media screen and (min-width: 600px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  main,
+  nav {
+    flex-direction: column;
+  }
+  #ContactMe, header {
     background-color: purple;
+    text-align: center;
   }
  }
