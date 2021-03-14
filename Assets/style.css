@@ -8,7 +8,6 @@ body {
   background-position: center;
 }
 /*sets the body style and adds an image to the background*/
-
 .main-header {
   border: 10px solid white;
   border-width: 5px;
@@ -138,10 +137,6 @@ body {
   font-size: 18px;
   color: white;
   display: inline-block;
-}
-
-.contactinfo:visited {
-    color: white;
 }
 
 .contactinfo:hover {
