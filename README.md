@@ -1,8 +1,8 @@
 <Portfolio>
 
-# _**Introdution**_
+# _**Introduction**_
 ***
-Penn LPS Coding Bootcamp has assigned us with the task of creating our very our portfolio that can showcase our progress over the next 24 weeks. This porfolio has been quite challenging, as we had to build code from scratch. I used the tools I learned from the first 2 weeks of class and implemented flexboxes. The flexboxes allow for seperation among the sections of the portfolio. I look forward to being able to expand my porfolio and update it as I learn new skills.
+Penn LPS Coding Bootcamp has assigned us with the task of creating our very own portfolio that can showcase our progress over the next 24 weeks. This portfolio has been quite challenging, as we had to build code from scratch. I used the tools I learned from the first 2 weeks of class. This portfolio was built using CSS techniques. I look forward to expanding my portfolio over the course of this bootcamp to track my progress.
 
 ***
 ### __Installation__
@@ -12,13 +12,7 @@ Open index.html in Chrome
 
 ***
 ### __Screenshot__
-![Amy Smerlick Student Porfolio](https://user-images.githubusercontent.com/77814900/110884280-e0aa9f80-82b2-11eb-990e-52f147299eed.png)
-***
-
-### __Completed__
-
-
-Add what I did
+![Live Portfolio](https://user-images.githubusercontent.com/77814900/111086346-01ad0380-84f2-11eb-9d56-e30e0019e785.png)
 
 ***
 ### __Credits__
