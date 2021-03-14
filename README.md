@@ -12,7 +12,7 @@ Open index.html in Chrome
 
 ***
 ### __Screenshot__
-![Live Portfolio](https://amysmerlick.github.io/Porftfolio/)
+![Live Portfolio](https://drive.google.com/file/d/1Ds5Kfp8e82VRjVQD-x6TIKJtMYXktGz0/view?usp=sharing)
 ***
 
 ### __Completed__
