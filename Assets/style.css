@@ -179,7 +179,7 @@ footer h5 {
   }
  }
 
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 480px) {
   /* Use flex-direction to stack the navbar, sidebar, and body */
   main,
   nav {
