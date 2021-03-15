@@ -45,8 +45,8 @@ body {
 .nav-link:active {
     color: lightblue;
 }
-/*changes the navigation link when it is clicked */
 
+/*changes the navigation link when it is clicked */
 .Content {
   display: flex;
   padding-bottom: 5px;
@@ -54,6 +54,7 @@ body {
   padding-left: 50px;
   padding-top: 0px;
 }
+
 /* sets up my flexbox for my biography */
 .Biography {
   display: flex;
@@ -61,22 +62,25 @@ body {
   border: 10px solid white;
 }
 
-
+/* sets the size and color of my Biography heading */
 .Biography h2 {
   font-size: 50px;
   color: lightblue;
   text-align: left;
 }
 
+/* sets the size of my Biography paragrap */
 .Biography p {
   font-size: 25px;
   padding: 1rem;
 }
 
+/*sizes my heashot */
 .amyshead img {
   object-fit: contain;
 }
 
+/*createst the flexbox for my Portfolio information */
 .Portfolio {
   border: 5px solid white;
   padding-top: 20px;
@@ -95,10 +99,12 @@ body {
   color: lightblue;
 }
 
+/* creates the size for my portfolio information */
 .Portfolio p {
   font-size: 25px;
 }
 
+/* creates the container for portfolio photos */
 .projectcontainer {
   display: flex;
   flex: 50%;
@@ -120,12 +126,14 @@ body {
   margin: 6px;
 }
 
+/* zoom effect when mouse is over porfolio photos */
 .projectimage:hover {
   zoom: 5;
 }
 
-/*EVERTHING BELOW HERE I AM CONTENT WITH*/
+/*creates the flexbox for my Contact information*/
 .ContactMe {
+
   text-align: center;
   padding: 60px;
   border: 5px solid white;
@@ -134,20 +142,24 @@ body {
   color: black;
 }
 
+/* sets the color and size of my contact information */
 .ContactMe a {
   font-size: 18px;
   color: white;
   display: inline-block;
 }
 
+/*changes color when the mouse hovers over */
 .contactinfo:hover {
     color: lightblue;
 }
 
+/*changes purple when clicked */
 .contactinfo:active {
   color: purple;
 }
 
+/* creates the layout for my footer and context within */
 footer h5 {
   text-align: center;
   background-color: darkgrey;
