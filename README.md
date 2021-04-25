@@ -29,7 +29,8 @@ Open index.html in Chrome
 This project has been deployed and is live on GitHub. Click the links below.
 
 -  [Amy Smerlick GitHub Repository](https://github.com/amysmerlick)
--   [Portfolio](https://amysmerlick.github.io/Porftfolio/)
+-  [Update Portfolio](https://amysmerlick.github.io/Porftfolio//)
+-  [Updated Linkedin](https://www.linkedin.com/in/amysmerlick/)
 
 ***
 ### __License__
