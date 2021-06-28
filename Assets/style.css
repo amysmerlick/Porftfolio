@@ -175,7 +175,7 @@ footer h5 {
   text-align: center;
   /* background-color: darkgrey; */
   font-size: 30px;
-  color: black;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
